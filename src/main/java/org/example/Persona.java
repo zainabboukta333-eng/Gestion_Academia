@@ -8,7 +8,7 @@ public class Persona {
     private String email;
 
 // Constructor con atributos
-    public Persona(int id, String nombre, String email) {
+    public Persona(String nombre, String email) {
         this.id = id;
         this.nombre = nombre;
         this.email = email;
@@ -40,5 +40,8 @@ public void setEmail(String email) {
         this.email = email;
 }
 public void
+ //porque los atributos son privados?
 
+
+//Que problemas podrías causar que fueran públicos?
 
