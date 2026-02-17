@@ -32,11 +32,12 @@ public class Person {
     ///---Métodos---
     /// Permisos / Retorno (void no retorna) / Nombre función / (): parametros
     public String mostrarInfo() {
-        return "ID:" + id + \n" +
-                "NOMBRE" + name +
-        }
+        return "ID:" + id + "\n" +
+            "NOMBRE" + name + "\n" +
+            "EMAIL" + email
 
-        }
+
+    }
 
     ///---Getters y setter--- (seleccionar atributos, clic derecho, generate, getter y setter)
     public int getId() {
